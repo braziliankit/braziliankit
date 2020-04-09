@@ -9,7 +9,8 @@
     "lint": "eslint packages --ext ts,tsx",
     "prebuild": "lerna exec --parallel -- rimraf dist typings",
     "build": "lerna exec --parallel -- rollup -c ../../rollup.config.js",
-    "release": "lerna --version --conventional-comits --yes",
+    "prerelease": "lerna version --create-release github --conventional-commits --yes",
+    "release": "lerna release --yes",
     "release:diff": "lerna diff",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },

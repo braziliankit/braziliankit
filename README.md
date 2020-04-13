@@ -1,7 +1,7 @@
  <h1 align="center"> Braziliankit </h1>
 
 ## 📋 Requirements
-This project depends on **node:12.14.1** or above.
+This project depends on **node:lts/erbium** or above.
 
 ## 🚀 Usage
 

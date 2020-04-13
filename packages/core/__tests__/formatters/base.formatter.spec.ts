@@ -1,4 +1,4 @@
-import { BaseFormatter } from '@usekit/core';
+import { BaseFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_CUSTOM = '000-000';
 const VALID_UNFORMATTED_CUSTOM = '000000';

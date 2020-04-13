@@ -3,7 +3,7 @@ import {
   CnpjValidator,
   CepValidator,
   InssValidator,
-} from '@usekit/core';
+} from '@braziliankit/core';
 
 const cpfValidator = new CpfValidator();
 const VALID_FORMATTED_CPF = '419.452.849-27';

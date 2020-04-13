@@ -1,6 +1,6 @@
 import { Validator } from 'class-validator';
 
-import { IsInss, IsCpf, IsCnpj, IsCep } from '@usekit/decorators';
+import { IsInss, IsCpf, IsCnpj, IsCep } from '@braziliankit/decorators';
 
 class TestClass {
   @IsInss()

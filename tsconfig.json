@@ -21,7 +21,7 @@
     "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
-      "@usekit/*": ["packages/*/lib"]
+      "@braziliankit/*": ["packages/*/lib"]
     }
   },
   "exclude": ["node_modules", "packages/**/__tests__"]

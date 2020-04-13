@@ -1,4 +1,4 @@
-import { CnpjFormatter } from '@usekit/core';
+import { CnpjFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_CNPJ = '00.000.000/0000-00';
 const VALID_UNFORMATTED_CNPJ = '00000000000000';

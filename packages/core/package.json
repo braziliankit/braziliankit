@@ -1,5 +1,5 @@
 {
-  "name": "@usekit/core",
+  "name": "@braziliankit/core",
   "version": "3.0.0",
   "description": "Validators, formatters and other value objects for brazillians",
   "author": {
@@ -34,14 +34,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/usemobile/usekit.git"
+    "url": "https://github.com/braziliankit/braziliankit.git"
   },
   "bugs": {
-    "url": "https://github.com/usemobile/usekit/issues"
+    "url": "https://github.com/braziliankit/braziliankit/issues"
   },
-  "homepage": "https://github.com/usemobile/usekit#readme",
+  "homepage": "https://github.com/braziliankit/braziliankit#readme",
   "peerDependencies": {
-    "@usekit/core": "*"
+    "@braziliankit/core": "*"
   },
   "dependencies": {
     "class-validator": "^0.11.1"

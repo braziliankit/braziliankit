@@ -1,6 +1,6 @@
 import { registerDecorator, ValidationOptions } from 'class-validator';
 
-import { CpfValidator } from '@usekit/core';
+import { CpfValidator } from '@braziliankit/core';
 
 export default function IsCpf(validationOptions?: ValidationOptions) {
   return function (object: Record<string, any>, propertyName: string) {

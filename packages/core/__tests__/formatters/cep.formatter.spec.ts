@@ -1,4 +1,4 @@
-import { CepFormatter } from '@usekit/core';
+import { CepFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_CEP = '00000-000';
 const VALID_UNFORMATTED_CEP = '00000000';

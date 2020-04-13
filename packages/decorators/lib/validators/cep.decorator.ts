@@ -1,6 +1,6 @@
 import { registerDecorator, ValidationOptions } from 'class-validator';
 
-import { CepValidator } from '@usekit/core';
+import { CepValidator } from '@braziliankit/core';
 
 export default function IsCep(validationOptions?: ValidationOptions) {
   return function (object: Record<string, any>, propertyName: string) {

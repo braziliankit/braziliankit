@@ -1,4 +1,4 @@
-import { InssFormatter } from '@usekit/core';
+import { InssFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_INSS = '11.111.11111/11';
 const VALID_UNFORMATTED_INSS = '111111111111';

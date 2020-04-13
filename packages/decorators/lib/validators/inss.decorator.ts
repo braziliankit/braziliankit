@@ -1,6 +1,6 @@
 import { registerDecorator, ValidationOptions } from 'class-validator';
 
-import { InssValidator } from '@usekit/core';
+import { InssValidator } from '@braziliankit/core';
 
 export default function IsInss(validationOptions?: ValidationOptions) {
   return function (object: Record<string, any>, propertyName: string) {

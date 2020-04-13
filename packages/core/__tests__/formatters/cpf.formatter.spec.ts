@@ -1,4 +1,4 @@
-import { CpfFormatter } from '@usekit/core';
+import { CpfFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_CPF = '000.000.000-00';
 const VALID_UNFORMATTED_CPF = '00000000000';

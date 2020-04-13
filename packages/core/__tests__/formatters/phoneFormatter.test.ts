@@ -1,4 +1,4 @@
-import { PhoneFormatter } from '@usekit/core';
+import { PhoneFormatter } from '@braziliankit/core';
 
 const VALID_FORMATTED_PHONE = '(00) 0 0000-0000';
 const VALID_UNFORMATTED_PHONE = '00000000000';

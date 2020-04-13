@@ -14,6 +14,6 @@ module.exports = {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js'],
   moduleNameMapper: {
-    '@usekit/(.*)': '<rootDir>/packages/$1/lib',
+    '@braziliankit/(.*)': '<rootDir>/packages/$1/lib',
   },
 };

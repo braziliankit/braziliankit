@@ -1,6 +1,6 @@
 import { registerDecorator, ValidationOptions } from 'class-validator';
 
-import { CnpjValidator } from '@usekit/core';
+import { CnpjValidator } from '@braziliankit/core';
 
 export default function IsCnpj(validationOptions?: ValidationOptions) {
   return function (object: Record<string, any>, propertyName: string) {

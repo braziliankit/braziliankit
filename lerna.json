@@ -5,10 +5,5 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "includeMergedTags": true,
-  "command": {
-    "publish": {
-      "registry": "https://npm.pkg.github.com"
-    }
-  },
   "version": "3.0.0"
 }

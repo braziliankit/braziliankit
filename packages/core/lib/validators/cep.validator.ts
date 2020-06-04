@@ -34,7 +34,7 @@ class CepValidator implements Validator, ValidatorConstraintInterface {
    * //=> false
    * ```
    * @param value A `string` with CEP numbers. Can be formatted or unformatted.
-   * @param validationArguments The <ValidationArguments> object
+   * @param _validationArguments The <ValidationArguments> object
    */
   validate(value: any, _validationArguments?: ValidationArguments): boolean {
     return this.isValid(value);
@@ -42,7 +42,7 @@ class CepValidator implements Validator, ValidatorConstraintInterface {
 
   /**
    * The default validation error message
-   * @param args Validation arguments
+   * @param _args Validation arguments
    */
   defaultMessage(_args: ValidationArguments): string {
     return 'The ($property) property with ($value) value is invalid!';

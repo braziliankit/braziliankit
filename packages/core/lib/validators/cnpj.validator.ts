@@ -68,7 +68,7 @@ class CnpjValidator implements Validator, ValidatorConstraintInterface {
 
   /**
    * The default validation error message
-   * @param args Validation arguments
+   * @param _args Validation arguments
    */
   defaultMessage(_args: ValidationArguments): string {
     return 'The ($property) property with ($value) value is invalid!';
